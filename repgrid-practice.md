@@ -1,11 +1,17 @@
 
 # Practice Repertory Grid technique
 
-You can practice Repertory Grid Technique on a University of Sydney virtual machine, which you are welcome to experiment with. It is, like any online system, subject to occasional service interruptions and potential data loss. Make sure you download the data you want to keep as soon as possible, and [let me know](mailto:eablack@uni.sydney.edu.au "Email EB") if you need assistance.
-
 Full acknowledgement of the work behind the web platform for Repertory Grid Technique goes to [Dr Mildred G Shaw and Dr Brian R Gaines at the University of Calgary](http://pages.cpsc.ucalgary.ca/~gaines/repplus/ "RepPlus website"). Previously available RepGrid servers are gradually being decommissioned and it would be a shame for this technique to fall into disuse as it has almost limitless potential for research and collaboration.
 
-To access the server, you will first need to [install the University's VPN on your Mac or PC](https://sydneyuni.service-now.com/sm?id=kb_article_view&sys_kb_id=e10e1396db01b3485beaf9b7f4961981 "instructions for installing VPN") if you are not using a a computer connected to the University network. If you are getting a "Cannot connect to the server" error, the most likely cause is that you are not running the VPN.
+If you would like to try the online version of RepGrid, WebGrid, there is still a free online server at (http://grid.eilab.ca/), but make sure you save your data as it is no longer reliably maintained. You can create your own grid using [Start a new link](http://grid.eilab.ca/WebGrid/Elicit/Initial.rgrid), but I advise you to [Register a cache](http://grid.eilab.ca/WebGrid/Cache) first so you will have a save destination that is easy for the webservice to access. If you do save your grid locally, this can be uploaded to the cache for comparison afterward. You can also download the server software and set it up on your own system.
+
+It will be helpful first to do the [Tutorial from Think Again--Carol's choices](http://pages.cpsc.ucalgary.ca/~gaines/reports/TUTOR/carol).
+
+--
+
+### Example of procedure
+
+A general overview of the process is below, based on a student tutorial conducted using a University of Sydney server which will not be available outside the University network.
 
 1. Make sure you are on a university-networked computer or have [installed the University's VPN on your Mac or PC](https://sydneyuni.service-now.com/sm?id=kb_article_view&sys_kb_id=e10e1396db01b3485beaf9b7f4961981 "instructions for installing VPN").
 
