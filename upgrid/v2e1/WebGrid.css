@@ -1,1 +1,100 @@
+* {font-family: sans-serif; font-size: 12px; line-height: 1.4; color: #0e5944;}
 
+body {max-width: 800px; margin: 0 auto; padding: 8px; background: #cec495;}
+
+a {color: #006666; background: transparent; text-decoration: none; font-weight: bold;}
+a:hover {background: #880000;}
+
+div.a {border: 4px solid #b7ae85; margin-top: 0; padding-top: 2px; background: #e5daa6; text-align: center;}
+div.a + div.a {border-top: 0px;}
+div.data {background: #ffffe1;}
+table {width: 100%; border-collapse: collapse;}
+table.ele, table.con  {margin: 0 auto; width: auto;}
+table.center, table.items {margin: 0 auto; width: auto; text-align: left;}
+table.items {border-width: 2px; border-spacing: 0px; border-style: solid; border-color: #0e5944;}
+table.items th, table.items td {border-width: 1px; border-style: solid;}
+
+table.cmat, table.emat {margin: 4px auto; width: auto; border-width: 2px; border-spacing: 0px; border-style: solid; border-color: #0e5944;}
+table.cmat td, table.emat td {border-width: 1px 0 0 0; padding: 1px 8px; border-style: solid; text-align: center; font-size: 12px;}
+table.cmat th, table.emat th {border-width: 2px 0 1px 0; padding: 1px 8px; border-style: solid; font-size: 13px;}
+table.cmat tr>td, table.cmat tr>th {text-align: right;}
+table.cmat td+td, table.cmat th+th {text-align: left;}
+table.cmat td+td+td+td, table.emat td+td {text-align: center; border-left-width: 1px;}
+table.cmat tr.a td, table.emat tr.a td {border-top-width: 2px;}
+table.cmat th.a {text-align: center;}
+table.cmat tr.a {text-align: center;}
+
+table.cache, table.cachecon {margin: 0 auto; width: 99%; border-width: 2px; border-spacing: 0px; border-style: solid; border-color: #0e5944;}
+table.cache td, table.cache th {border-width: 1px; padding: 2px 3px; border-style: solid; border-color: #BBDDBB;}
+table.cache td, table.cache a {font-size: 11px;}
+table.cache td {text-align: right;}
+table.cache td.a {text-align: left;}
+table.cache tr.a0 {background: #FFFFFF;}
+table.cache tr.a1 {background: #FFEEEE;}
+table.cache tr.a2 {background: #F7FFCE;}
+table.cache tr.a3 {background: #C6EFF7;}
+table.cache tr.a4 {background: #E0E0E0;}
+table.cache tr.a5 {background: #FFE7C6;}
+table.cache tr.a6 {background: #FFFFFF;}
+table.cachecon {border-top: 0px;}
+table.cachecon td, table.cachecon th {border-width: 0px; padding: 4px 0px;}
+
+h1, h2, h3 {text-align: center; line-height: 1.4; margin: 2px; color: #880000}
+h1, h1 * {font-size: 24px;}
+h2, h2 * {font-size: 16px;}
+pre {font-family: monospace; font-size: 9px; text-align: left;}
+input.a {font-family: monospace; font-size: 10px; text-align: left;}
+input.b {font-family: monospace; font-size: 12px;}
+p {margin: 0px; padding: 4px; border: 0px;}
+p.center {margin: 0px; padding: 4px; border: 0px; text-align: center;}
+hr {height: 3px; color: #b7ae85; background: #b7ae85; border: 0;}
+br.a {clear: all;}
+select {box-sizing: content-box; padding: 5px 0;}
+input[type="color"] {width: 25px; height: 20px; padding: 0; background-color: transparent; border: 0; border-radius: 100%;}
+
+.heading {display: flex; justify-content: space-around; align-items: center; text-align: center; margin-bottom: 4px;}
+
+div.note {text-align: left; font-size: 10px; color: #80795d;}
+div.left {text-align: left;}
+div.center {text-align: center;}
+div.right {text-align: right;}
+div.hide {display: none;}
+div.butr {text-align: right; margin: 4px;}
+
+table.opt td {padding: 4px 2px; text-align: right; font-weight: bold;}
+table.opt td.b {padding: 4px 2px; text-align: right; font-weight: normal;}
+table.opt td.a {text-align: left; font-weight: normal;}
+
+table.analysis {border-width: 1px;}
+table.analysis td {border-width: 2px; padding: 6px; border-style: solid; border-color: #CEC495; font-size: 12px; font-weight: bold;}
+span.swatch {font-size: 8px; border-width: 7px 0 0 0; border-style: solid; outline: black solid 1px;}
+
+button {background-color: #cec495; margin: 0px; font-weight: bold;}
+button:hover .dbut a:hover{background-color: #b7ae85;}
+button:disabled {background-color: #DDDDDD; color: #AAAAAA;}
+button, .butw {width: 100px;}
+button.small {width: 48px;}
+button.large {width: 150px;}
+button.auto {width: auto;}
+
+.dbut {position: relative; display: inline-block;}
+.dbut-men {position: absolute; top: 100%; display: none; margin: 0; padding: 0; list-style: none; width: 140px;}
+.dbut:hover .dbut-men {display: block;}
+.dbut a {display: block; padding: 0.2em 0.8em; background: #cec495; color: #0e5944; border: 2px solid #c0c0c0; text-align: left;}
+.dbut a:hover {background: #b7ae85;}
+
+span.pop {float: right; color: #579dfe;}
+
+button.wg {width: 70px; height: 70px; font-size: 24px; color: #880000; background: url(/WG/WebGrid.png); background-repeat: no-repeat;}
+button.icon {width: 95px; height: 57px; font-size: 16px;}
+button.dis {background: url(/WG/display95.png);}
+button.syn {background: url(/WG/synopsis95.png);}
+button.foc {background: url(/WG/focus95.png);}
+button.pri {background: url(/WG/pringrid95.png);}
+button.cro {background: url(/WG/crossplot95.png);}
+button.mat {background: url(/WG/match95.png);}
+button.com {background: url(/WG/compare95.png);}
+
+span.help {color: white; background: #0e5944; text-decoration: none; font-size: 12px; font-weight: bold;}
+span.help:hover {color: transparent; background: transparent; cursor: help;}
+.qw {width: 18px;}
